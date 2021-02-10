@@ -18,7 +18,7 @@
 		6E15BB0025D3C97B00D913F3 /* ToolbarItemIcon.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 6E15BAFF25D3C97B00D913F3 /* ToolbarItemIcon.pdf */; };
 		6E15BB0325D3C97B00D913F3 /* SafariExtensionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E15BB0125D3C97B00D913F3 /* SafariExtensionViewController.xib */; };
 		6E15BB0825D3C97B00D913F3 /* Site-Stickies-Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 6E15BAF325D3C97B00D913F3 /* Site-Stickies-Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		6E15BB1025D3C9F200D913F3 /* stickynotesstyles.css in Resources */ = {isa = PBXBuildFile; fileRef = 6E15BB0F25D3C9F200D913F3 /* stickynotesstyles.css */; };
+		6E15BB1425D3CD5900D913F3 /* stickynotesstyles.css in Resources */ = {isa = PBXBuildFile; fileRef = 6E15BB1325D3CD5900D913F3 /* stickynotesstyles.css */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,7 +62,7 @@
 		6E15BB0225D3C97B00D913F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/SafariExtensionViewController.xib; sourceTree = "<group>"; };
 		6E15BB0425D3C97B00D913F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6E15BB0525D3C97B00D913F3 /* Site_Stickies_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Site_Stickies_Extension.entitlements; sourceTree = "<group>"; };
-		6E15BB0F25D3C9F200D913F3 /* stickynotesstyles.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; name = stickynotesstyles.css; path = ../../../../Desktop/stickynotesstyles.css; sourceTree = "<group>"; };
+		6E15BB1325D3CD5900D913F3 /* stickynotesstyles.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = stickynotesstyles.css; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,7 +149,7 @@
 			isa = PBXGroup;
 			children = (
 				6E15BAFD25D3C97B00D913F3 /* script.js */,
-				6E15BB0F25D3C9F200D913F3 /* stickynotesstyles.css */,
+				6E15BB1325D3CD5900D913F3 /* stickynotesstyles.css */,
 				6E15BAFF25D3C97B00D913F3 /* ToolbarItemIcon.pdf */,
 			);
 			path = Resources;
@@ -244,7 +244,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E15BB1025D3C9F200D913F3 /* stickynotesstyles.css in Resources */,
+				6E15BB1425D3CD5900D913F3 /* stickynotesstyles.css in Resources */,
 				6E15BB0325D3C97B00D913F3 /* SafariExtensionViewController.xib in Resources */,
 				6E15BB0025D3C97B00D913F3 /* ToolbarItemIcon.pdf in Resources */,
 				6E15BAFE25D3C97B00D913F3 /* script.js in Resources */,
