@@ -11,7 +11,39 @@
 		6E15BAE125D3C95700D913F3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E15BAE025D3C95700D913F3 /* ContentView.swift */; };
 		6E15BAE325D3C95800D913F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E15BAE225D3C95800D913F3 /* Assets.xcassets */; };
 		6E15BAE625D3C95800D913F3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E15BAE525D3C95800D913F3 /* Preview Assets.xcassets */; };
+		6E15BAF625D3C97B00D913F3 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E15BAF525D3C97B00D913F3 /* Cocoa.framework */; };
+		6E15BAF925D3C97B00D913F3 /* SafariExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E15BAF825D3C97B00D913F3 /* SafariExtensionHandler.swift */; };
+		6E15BAFB25D3C97B00D913F3 /* SafariExtensionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E15BAFA25D3C97B00D913F3 /* SafariExtensionViewController.swift */; };
+		6E15BAFE25D3C97B00D913F3 /* script.js in Resources */ = {isa = PBXBuildFile; fileRef = 6E15BAFD25D3C97B00D913F3 /* script.js */; };
+		6E15BB0025D3C97B00D913F3 /* ToolbarItemIcon.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 6E15BAFF25D3C97B00D913F3 /* ToolbarItemIcon.pdf */; };
+		6E15BB0325D3C97B00D913F3 /* SafariExtensionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E15BB0125D3C97B00D913F3 /* SafariExtensionViewController.xib */; };
+		6E15BB0825D3C97B00D913F3 /* Site-Stickies-Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 6E15BAF325D3C97B00D913F3 /* Site-Stickies-Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		6E15BB1025D3C9F200D913F3 /* stickynotesstyles.css in Resources */ = {isa = PBXBuildFile; fileRef = 6E15BB0F25D3C9F200D913F3 /* stickynotesstyles.css */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6E15BB0625D3C97B00D913F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E15BAD325D3C95700D913F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E15BAF225D3C97B00D913F3;
+			remoteInfo = "Site-Stickies-Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6E15BB0C25D3C97B00D913F3 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				6E15BB0825D3C97B00D913F3 /* Site-Stickies-Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		6E15BADB25D3C95700D913F3 /* Site-Stickies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Site-Stickies.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -21,6 +53,16 @@
 		6E15BAE525D3C95800D913F3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6E15BAE725D3C95800D913F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6E15BAE825D3C95800D913F3 /* Site_Stickies.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Site_Stickies.entitlements; sourceTree = "<group>"; };
+		6E15BAF325D3C97B00D913F3 /* Site-Stickies-Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Site-Stickies-Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E15BAF525D3C97B00D913F3 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		6E15BAF825D3C97B00D913F3 /* SafariExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariExtensionHandler.swift; sourceTree = "<group>"; };
+		6E15BAFA25D3C97B00D913F3 /* SafariExtensionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariExtensionViewController.swift; sourceTree = "<group>"; };
+		6E15BAFD25D3C97B00D913F3 /* script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = script.js; sourceTree = "<group>"; };
+		6E15BAFF25D3C97B00D913F3 /* ToolbarItemIcon.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ToolbarItemIcon.pdf; sourceTree = "<group>"; };
+		6E15BB0225D3C97B00D913F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/SafariExtensionViewController.xib; sourceTree = "<group>"; };
+		6E15BB0425D3C97B00D913F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E15BB0525D3C97B00D913F3 /* Site_Stickies_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Site_Stickies_Extension.entitlements; sourceTree = "<group>"; };
+		6E15BB0F25D3C9F200D913F3 /* stickynotesstyles.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; name = stickynotesstyles.css; path = ../../../../Desktop/stickynotesstyles.css; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +73,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6E15BAF025D3C97B00D913F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E15BAF625D3C97B00D913F3 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -38,6 +88,8 @@
 			isa = PBXGroup;
 			children = (
 				6E15BADD25D3C95700D913F3 /* Site-Stickies */,
+				6E15BAF725D3C97B00D913F3 /* Site-Stickies-Extension */,
+				6E15BAF425D3C97B00D913F3 /* Frameworks */,
 				6E15BADC25D3C95700D913F3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				6E15BADB25D3C95700D913F3 /* Site-Stickies.app */,
+				6E15BAF325D3C97B00D913F3 /* Site-Stickies-Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -71,6 +124,37 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		6E15BAF425D3C97B00D913F3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6E15BAF525D3C97B00D913F3 /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6E15BAF725D3C97B00D913F3 /* Site-Stickies-Extension */ = {
+			isa = PBXGroup;
+			children = (
+				6E15BAF825D3C97B00D913F3 /* SafariExtensionHandler.swift */,
+				6E15BAFA25D3C97B00D913F3 /* SafariExtensionViewController.swift */,
+				6E15BB0125D3C97B00D913F3 /* SafariExtensionViewController.xib */,
+				6E15BB0425D3C97B00D913F3 /* Info.plist */,
+				6E15BB0525D3C97B00D913F3 /* Site_Stickies_Extension.entitlements */,
+				6E15BAFC25D3C97B00D913F3 /* Resources */,
+			);
+			path = "Site-Stickies-Extension";
+			sourceTree = "<group>";
+		};
+		6E15BAFC25D3C97B00D913F3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6E15BAFD25D3C97B00D913F3 /* script.js */,
+				6E15BB0F25D3C9F200D913F3 /* stickynotesstyles.css */,
+				6E15BAFF25D3C97B00D913F3 /* ToolbarItemIcon.pdf */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -81,15 +165,34 @@
 				6E15BAD725D3C95700D913F3 /* Sources */,
 				6E15BAD825D3C95700D913F3 /* Frameworks */,
 				6E15BAD925D3C95700D913F3 /* Resources */,
+				6E15BB0C25D3C97B00D913F3 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				6E15BB0725D3C97B00D913F3 /* PBXTargetDependency */,
 			);
 			name = "Site-Stickies";
 			productName = "Site-Stickies";
 			productReference = 6E15BADB25D3C95700D913F3 /* Site-Stickies.app */;
 			productType = "com.apple.product-type.application";
+		};
+		6E15BAF225D3C97B00D913F3 /* Site-Stickies-Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E15BB0925D3C97B00D913F3 /* Build configuration list for PBXNativeTarget "Site-Stickies-Extension" */;
+			buildPhases = (
+				6E15BAEF25D3C97B00D913F3 /* Sources */,
+				6E15BAF025D3C97B00D913F3 /* Frameworks */,
+				6E15BAF125D3C97B00D913F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Site-Stickies-Extension";
+			productName = "Site-Stickies-Extension";
+			productReference = 6E15BAF325D3C97B00D913F3 /* Site-Stickies-Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -101,6 +204,9 @@
 				LastUpgradeCheck = 1220;
 				TargetAttributes = {
 					6E15BADA25D3C95700D913F3 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					6E15BAF225D3C97B00D913F3 = {
 						CreatedOnToolsVersion = 12.2;
 					};
 				};
@@ -119,6 +225,7 @@
 			projectRoot = "";
 			targets = (
 				6E15BADA25D3C95700D913F3 /* Site-Stickies */,
+				6E15BAF225D3C97B00D913F3 /* Site-Stickies-Extension */,
 			);
 		};
 /* End PBXProject section */
@@ -130,6 +237,17 @@
 			files = (
 				6E15BAE625D3C95800D913F3 /* Preview Assets.xcassets in Resources */,
 				6E15BAE325D3C95800D913F3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E15BAF125D3C97B00D913F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E15BB1025D3C9F200D913F3 /* stickynotesstyles.css in Resources */,
+				6E15BB0325D3C97B00D913F3 /* SafariExtensionViewController.xib in Resources */,
+				6E15BB0025D3C97B00D913F3 /* ToolbarItemIcon.pdf in Resources */,
+				6E15BAFE25D3C97B00D913F3 /* script.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -145,7 +263,35 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6E15BAEF25D3C97B00D913F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E15BAFB25D3C97B00D913F3 /* SafariExtensionViewController.swift in Sources */,
+				6E15BAF925D3C97B00D913F3 /* SafariExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6E15BB0725D3C97B00D913F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E15BAF225D3C97B00D913F3 /* Site-Stickies-Extension */;
+			targetProxy = 6E15BB0625D3C97B00D913F3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6E15BB0125D3C97B00D913F3 /* SafariExtensionViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E15BB0225D3C97B00D913F3 /* Base */,
+			);
+			name = SafariExtensionViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		6E15BAE925D3C95800D913F3 /* Debug */ = {
@@ -266,6 +412,7 @@
 		6E15BAEC25D3C95800D913F3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "Site-Stickies/Site_Stickies.entitlements";
@@ -290,6 +437,7 @@
 		6E15BAED25D3C95800D913F3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "Site-Stickies/Site_Stickies.entitlements";
@@ -311,6 +459,46 @@
 			};
 			name = Release;
 		};
+		6E15BB0A25D3C97B00D913F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Site-Stickies-Extension/Site_Stickies_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M37C3Z2PMR;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "Site-Stickies-Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "shockerella.Site-Stickies.Site-Stickies-Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		6E15BB0B25D3C97B00D913F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Site-Stickies-Extension/Site_Stickies_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M37C3Z2PMR;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "Site-Stickies-Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "shockerella.Site-Stickies.Site-Stickies-Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -328,6 +516,15 @@
 			buildConfigurations = (
 				6E15BAEC25D3C95800D913F3 /* Debug */,
 				6E15BAED25D3C95800D913F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E15BB0925D3C97B00D913F3 /* Build configuration list for PBXNativeTarget "Site-Stickies-Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E15BB0A25D3C97B00D913F3 /* Debug */,
+				6E15BB0B25D3C97B00D913F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
